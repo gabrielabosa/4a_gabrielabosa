@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.menuprincipalController">
+<AnchorPane id="AnchorPane" prefHeight="343.0" prefWidth="451.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.menuprincipalController">
     <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="txtN" layoutX="28.0" layoutY="61.0" prefHeight="25.0" prefWidth="76.0" />
+      <TextField fx:id="txtT" layoutX="238.0" layoutY="61.0" prefHeight="25.0" prefWidth="76.0" />
+      <TextField fx:id="txtNN" layoutX="134.0" layoutY="61.0" prefHeight="25.0" prefWidth="76.0" />
+      <Label layoutX="28.0" layoutY="36.0" text="n1" />
+      <Label layoutX="134.0" layoutY="36.0" text="n2" />
+      <Label layoutX="238.0" layoutY="36.0" text="total" />
+      <Button fx:id="btnS" layoutX="78.0" layoutY="125.0" mnemonicParsing="false" text="soma" />
+      <Button layoutX="146.0" layoutY="125.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="214.0" layoutY="125.0" mnemonicParsing="false" text="Button" />
     </children>
 </AnchorPane>
