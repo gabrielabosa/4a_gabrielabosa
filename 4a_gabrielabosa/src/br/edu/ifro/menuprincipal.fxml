@@ -10,14 +10,22 @@
 <AnchorPane id="AnchorPane" prefHeight="343.0" prefWidth="451.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.menuprincipalController">
     <children>
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <TextField fx:id="txtN" layoutX="28.0" layoutY="61.0" prefHeight="25.0" prefWidth="76.0" />
-      <TextField fx:id="txtT" layoutX="238.0" layoutY="61.0" prefHeight="25.0" prefWidth="76.0" />
-      <TextField fx:id="txtNN" layoutX="134.0" layoutY="61.0" prefHeight="25.0" prefWidth="76.0" />
-      <Label layoutX="28.0" layoutY="36.0" text="n1" />
-      <Label layoutX="134.0" layoutY="36.0" text="n2" />
-      <Label layoutX="238.0" layoutY="36.0" text="total" />
-      <Button fx:id="btnS" layoutX="78.0" layoutY="125.0" mnemonicParsing="false" onAction="#soma" text="soma" />
-      <Button layoutX="146.0" layoutY="125.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="214.0" layoutY="125.0" mnemonicParsing="false" text="Button" />
+      <TextField fx:id="txtN" layoutX="55.0" layoutY="108.0" prefHeight="25.0" prefWidth="76.0" />
+      <TextField fx:id="txtT" layoutX="299.0" layoutY="108.0" prefHeight="25.0" prefWidth="76.0" />
+      <TextField fx:id="txtNN" layoutX="180.0" layoutY="108.0" prefHeight="25.0" prefWidth="76.0" />
+      <Label layoutX="55.0" layoutY="88.0" text="n1" />
+      <Label layoutX="180.0" layoutY="88.0" text="n2" />
+      <Label layoutX="299.0" layoutY="88.0" text="total" />
+      <Button fx:id="btnS" layoutX="195.0" layoutY="172.0" mnemonicParsing="false" onAction="#soma" text="soma" />
+      <MenuBar prefHeight="25.0" prefWidth="451.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Cadastros">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#abrirCadastroAluno" text="Alunos" />
+              <MenuItem mnemonicParsing="false" onAction="#fecharCad" text="Fechar" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
     </children>
 </AnchorPane>
